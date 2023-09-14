@@ -25,7 +25,7 @@ const SearchResult = () => {
                 setLoading(false);
             }
         );
-    };
+    };<p>hi this is jaspreet</p>
 
     const fetchNextPageData = () => {
         fetchDataFromApi(`/search/multi?query=${query}&page=${pageNum}`).then(
